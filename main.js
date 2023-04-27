@@ -6,4 +6,6 @@ function changeBackground() {
   let color = "rgb(" + value1 + "," + value2 + "," + value3 + ")";
   console.log(color);
   document.getElementById("background").style.backgroundColor = color;
+  document.querySelector(".output").innerHTML =
+    "Dein aktueller RGB Farbcode : " + color;
 }
